@@ -1,0 +1,348 @@
+/*全局样式*/
+body{
+    padding:0 10px; margin:0;
+    font:15px "微软雅黑 Light";
+    color:black;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color:black;
+}
+a:focus{
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+}
+
+/*header样式*/
+header .top{
+    font-size:small;
+    color:steelblue;
+}
+header .top img{
+    float:left;
+}
+header .top div{
+    padding-left:20px;
+    background:url("img/call.png") left 3px no-repeat;
+    float:right;
+}
+header .top:after{
+    content:" ";
+    display:block;
+    clear:both;
+}
+header .nav{
+    line-height:50px;
+    background:#f7f7f7;
+    border:1px solid #eee;
+    margin-top:15px;
+    font-weight:bold;
+    padding:0 5%;
+}
+header .nav>ul{
+    display:inline-block;
+    margin-bottom:0;
+}
+header .nav>ul li{
+    display:inline-block;
+    margin-right:50px;
+    cursor:pointer;
+}
+header .nav .dropdown-menu{
+    margin-top:10px;
+}
+header .nav .dropdown-menu li a{
+    font-weight:bold;
+}
+header .nav .search{
+    float:right;
+}
+header .nav .search input{
+    line-height:30px;
+    color:lightgrey;
+    border-radius: 5px;
+    border:1px solid darkgrey;
+}
+header .nav .search .h{
+    display:none;
+}
+header .nav .search li{
+    margin-right:20px;
+}
+/*banner样式*/
+.banner img{
+    width:100%;
+    height:400px;
+}
+.banner2{
+    text-align: center;
+    background:#f0f0f0;
+    height:300px;
+    margin-bottom:50px;
+}
+.banner2 h3{
+    font-weight:bold;
+    margin:40px auto;
+}
+.banner2 .row img{
+    width:30px;
+    height:30px;
+    margin-top:15px;
+}
+.banner2 .row .img-wrapper{
+    width:60px;
+    height:60px;
+    border:2px solid #e1dfdf;
+    border-radius: 50%;
+    margin-left:calc(50% - 30px);
+    margin-bottom:20px;
+    transition: transform 0.3s;
+}
+.banner2 .row .img-wrapper:hover{
+    transform:scale(1.2,1.2);
+}
+.pic-list{
+    padding:0 50px;
+    margin-bottom:50px;
+}
+
+.banner3{
+    background-color:#333f50;
+    text-align:center;
+    color:#fff;
+    padding:0 30px;
+    height:300px;
+}
+.banner3 img{
+    width:50px;
+    height:50px;
+    margin:15px auto;
+    transition:transform 1s;
+}
+.banner3 .row div:hover img{
+    transform:rotate(360deg);
+}
+.product{
+    text-align:center;
+}
+.product h2{
+    color:rgb(175,175,171);
+    font-weight:bold;
+}
+.product p{
+    color:#2189bf;
+}
+
+.banner4{
+
+}
+.banner4 .carousel-inner .item{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+}
+.banner4 .carousel-inner .bg1{
+    background: url("img/index5-1.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+.banner4 .carousel-inner .bg2{
+    background:url("img/index5-2.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+.banner4 .carousel-inner .bg3{
+    background:url("img/index5-3.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+.banner4 .carousel-inner .bg4{
+    background:url("img/index5-4.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+.banner4 .carousel-inner .bg5{
+    background:url("img/index5-5.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+.banner4 .carousel-inner .bg6{
+    background:url("img/index5-6.png") 100% 50% no-repeat;
+    background-size:cover;
+}
+
+.banner4 .carousel-inner .caption{
+    float:left;
+    margin:50px 10% 0 50%;
+}
+.banner4 .carousel-control{
+    background:transparent;
+    z-index:2;
+}
+.banner4 .carousel-control .glyphicon{
+    color:lightskyblue;
+    font-size:35px;
+    margin-left:-55px;
+}
+.banner4 .carousel-indicators li{
+    border:1px solid #0000FF;
+}
+.banner4 ol li.active{
+    background-color:#0000FF;
+}
+/*footer样式*/
+footer{
+    background:rgb(128,128,128);
+    color:white;
+    padding-left:120px;
+    height:330px;
+}
+footer ul{
+    padding:0;
+}
+footer ul li{
+    margin-top:15px;
+}
+footer ul li:nth-child(1){
+    margin-bottom:30px;
+}
+footer .copyright{
+    margin-top:50px;
+    overflow: hidden;
+    font-size:small;
+}
+footer .copyright .left{
+    float:left;
+}
+footer .copyright .right{
+    float:right;
+    margin-right:200px;
+}
+
+.goTop{
+    position:fixed;
+    bottom:50px;
+    right:20px;
+}
+.goTop span{
+    font-size:40px;
+}
+.frame2>ul{
+    padding:0;
+}
+.frame2>ul li{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:medium;
+    border-bottom:1px solid gainsboro ;
+    text-indent:2em;
+}
+.frame2 span{
+    display:inline-block;
+    float:right;
+    clear:right;
+}
+.frame2 li.inner{
+    background:rgb(211,233,255);
+}
+.frame2 li.inner:hover{
+    background:rgb(153,204,255);
+}
+.consult-wrap{
+    height:400px;
+    position:fixed;
+    right:10px;
+    bottom:10%;
+    overflow:hidden;
+    z-index:2;
+    margin-right:-200px;
+}
+.consult{
+    margin-top:160px;
+    float:left;
+    width:80px;
+    line-height:80px;
+    border:1px solid salmon;
+    border-radius:50%;
+    text-align:center;
+    background-color:#a7cece;
+}
+.consult-content{
+    float:left;
+    width:200px;
+    height:400px;
+    border:1px solid lightpink;
+}
+
+@media screen and (max-width:768px){
+    body{
+        font-size:small;
+    }
+    .nav ul:nth-child(1){
+        display:none;
+    }
+    header .nav .search .h{
+        display:inline-block;
+    }
+    .pic-list{
+        text-align: center;
+    }
+    .banner3{
+        height:600px;
+    }
+    .banner4 .carousel-inner .item{
+        background-size:90% auto;
+        background-position:-20% 40% ;
+    }
+    .banner4 .carousel-inner .caption{
+        margin:50px 0 0 40%;
+    }
+    .banner4 .carousel-inner .caption button{
+        width:100px;
+        line-height:10px;
+        font-size:small;
+        text-align:center;
+    }
+    footer{
+        height:900px;
+        padding-left:0;
+        text-align: center;
+    }
+    footer .copyright .left{
+        float:none;
+    }
+    footer .copyright .right{
+        float:none;
+        margin-right:0;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    header .nav{
+        padding:0;
+    }
+    .pic-list{
+        text-align: center;
+    }
+    .banner3{
+        height:450px;
+    }
+    .banner4 .carousel-inner .item{
+        background-size:90% auto;
+        background-position:-20% 40% ;
+    }
+    .banner4 .carousel-inner .caption{
+        margin:50px 0 0 40%;
+    }
+    .banner4 .carousel-inner .caption button{
+        width:100px;
+        line-height:10px;
+        font-size:small;
+        text-align:center;
+    }
+    footer{
+        height:540px;
+    }
+    footer .copyright .right{
+        float:left;
+    }
+
+}
