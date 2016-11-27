@@ -175,12 +175,20 @@ header .nav .search li{
 }
 .banner4 .carousel-control{
     background:transparent;
-    z-index:2;
+    z-index:998;
 }
 .banner4 .carousel-control .glyphicon{
-    color:lightskyblue;
-    font-size:35px;
-    margin-left:-55px;
+	z-index:999;
+	position:absolute;
+	 color:lightskyblue;
+	top:40%;
+    font-size:65px;
+}
+.banner4 .left.carousel-control .glyphicon{
+	left:10%;
+}
+.banner4 .right.carousel-control .glyphicon{
+	right:10%;
 }
 .banner4 .carousel-indicators li{
     border:1px solid #0000FF;
